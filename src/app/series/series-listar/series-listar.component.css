@@ -1,0 +1,87 @@
+.navbar {
+    background-color: #4FA0B5;
+    color: black;
+    font-size: 18pt;
+}
+
+#alaide {
+    display: flex ;
+    justify-content: flex-start ;
+    align-items: center;
+}
+
+a {
+    color: #4E83C7 ; 
+    text-decoration: none;
+}
+
+#bouton {
+    color: #4E83C7 ; 
+    text-decoration: none;
+}
+
+
+.container-fluid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+}
+.container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: min-content;
+}
+
+.table {
+    width: 90%; 
+}
+        
+.entete {
+    background-color: white; 
+    border-top: 1px solid #ECECEC  ;
+}
+        
+#contenidoTabla {
+    background-color: #F2F2F2; 
+}
+
+.max-width-image {
+    max-width: 3%; 
+    height: auto; 
+    margin-right: 1%; 
+}
+
+tbody td:first-child, th:first-child {
+    font-weight: bold;
+}
+
+tfoot td {
+    border-bottom: none;
+}
+
+.card {
+    display: none; 
+    width: 50%;
+    padding-bottom: 5%;
+}
+
+.text {
+    margin: 5%; 
+}
+
+.description {
+    margin-bottom: 5%;
+    font-size: 10pt;
+}
+
+.max-card-img {
+    width: 100%; 
+    height: auto; 
+}
+
+.column-left, .column-right {
+    display: flex;
+    flex-direction: column; 
+}
